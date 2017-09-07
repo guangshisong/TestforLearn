@@ -47,6 +47,7 @@ public class MainActivity extends AppCompatActivity {
 
         String token = FirebaseInstanceId.getInstance().getToken();
         Log.d(TAG, "Toekn: " + token);
+        Log.d(TAG, "Toekn: " + token);
 
 
         mTextMessage = (TextView) findViewById(R.id.message);
